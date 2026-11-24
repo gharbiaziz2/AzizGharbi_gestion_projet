@@ -7,7 +7,7 @@ pipeline {
     }
 
     environment {
-        registry = "USERNAME_DOCKERHUB/gestion-projet"
+        registry = "azizghrab/gestion-projet"
         registryCredential = 'dockerHub'
     }
 
